@@ -1,0 +1,72 @@
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: left;
+    color: white;
+    border-radius:5px;
+    width:100%;
+    height:60px;
+    background:#36465d;
+    border:2px solid #36465d;
+    margin:0px 5px 15px 0px;
+}
+
+#video{
+    float: left;
+    border-radius:5px;
+    width:500px;
+    height:300px;
+    background:#d6dade; 
+    border: 2px solid #d6dade;
+    margin:80px 10px 10px 80px;
+}
+
+#review{
+    float:left;
+    border-radius: 5px;
+    width:500px;
+    height:100px;
+    background: #d6dade;
+    border: 2px solid #d6dade;
+    margin:100px 10px 10px 80px;
+    
+}
+
+
+#buyticket{
+    float: right;
+    border-radius:5px;
+    width: 200px;
+    height: 100px;
+    background: #d6dade;
+    border: 2px solid #d6dade;
+    margin:-100px 80px 10px 10px;
+    
+}
+
+#rate{
+    float:right;
+    border-radius:5px;
+    width:200px;
+    height: 100px;
+    background: #d6dade;
+    border: 2px solid #d6dade;
+    margin:30px 80px 10px 10px;    
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius:5px;
+    width:100%;
+    height:40px;
+    background:#36465d;
+    border:2px solid #36465d;
+    margin:10px 5px 0px 0px;
+}
+
+#title {
+    
+}

@@ -1,28 +1,28 @@
 <html>
 <head>
-<script language=”Javascript”>
+<script language="Javascript">
 
-MyBanners=new Array(‘banner1.jpg’,’banner2.jpg’,’banner3.jpg’,’banner4.jpg’)
-MyBannerLinks=new Array(‘http://www.vbtutor.net/’,’http://www.excelvbatutor.com/’,’http://onlinebizguide4you.com/’,’http://javascript-tutor.net/’)
-banner=0
-function ShowLinks(){
-document.location.href=”http://www.”+MyBannerLinks[banner]
+var MyBanners = ["godfather.jpeg","city_of_god.jpeg","schindlers_list.jpeg","fight_club.jpeg"];
+var MyBannerLinks = ["youtube.com/watch?v=5DO-nDW43Ik/","youtube.com/watch?v=yJdW1TevoyA/","youtube.com/watch?v=JdRGC-w9syA/","youtube.com/watch?v=-Th5pD5lIOM/"];
+var banner=0;
+function showLinks(){
+document.location.href="http://www."+MyBannerLinks[banner]
 }
 
-function ShowBanners()
+function showBanners()
 { if (document.images)
-{ banner++
+{ banner++;
 if (banner==MyBanners.length) {
-banner=0}
+banner=0;}
 document.ChangeBanner.src=MyBanners[banner]
-setTimeout(“ShowBanners()”,5000)
+setTimeout("showBanners()",5000)
 }
 }
 </script>
-<body onload=”ShowBanners()”>
+<body onload = "showBanners()">
 <center>
-<a href=”javascript: ShowLinks()”>
-<img src=”banner1.jpg” width=”900″ height=”120″ name=”ChangeBanner”/></a>
+<a href="javascript: ShowLinks()">
+<img src="godfather.jpeg" width="900" height="120" name="ChangeBanner"/></a>
 </center>
 </body>
 </html>
