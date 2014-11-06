@@ -3,13 +3,34 @@
 	<head>
 		<link type="text/css" rel="stylesheet" href="mainpage-style.css"/>
 		<title>SupercoolMoviePage</title>
+        <script language="Javascript">
+
+var MyBanners = ["godfather.jpeg","city_of_god.jpeg","schindlers_list.jpeg","fight_club.jpeg"];
+var MyBannerLinks = ["youtube.com/watch?v=5DO-nDW43Ik/","youtube.com/watch?v=yJdW1TevoyA/","youtube.com/watch?v=JdRGC-w9syA/","youtube.com/watch?v=-Th5pD5lIOM/"];
+var banner=0;
+function showLinks(){
+document.location.href="http://www."+MyBannerLinks[banner]
+}
+
+function showBanners()
+{ if (document.images)
+{ banner++;
+if (banner==MyBanners.length) {
+banner=0;}
+document.ChangeBanner.src=MyBanners[banner]
+setTimeout("showBanners()",5000)
+}
+}
+</script>
 	</head>
-	<body>
+	<body onload="showBanners()">
 	  <div id="wrapper">
      <div id="header"> 
        <h1>British Films</h1>
      </div>
+    
 	<div id="content">
+        
 	</div>
 	    <div id="community">
 <!--	      
@@ -23,8 +44,10 @@
 	    </div>
 	 <div id="footer">Sophie, Michi, Silvie. Contact. Address</div>
 	    <div id="banner">
-	    <!--Here should come the banner-->
-	    </div>
+        <a href="javascript: ShowLinks()">
+        <img src="godfather.jpeg"                    height="400" name="ChangeBanner"/>
+        </a>
+    </div>
 	  </div>
     </body>
 </html>
