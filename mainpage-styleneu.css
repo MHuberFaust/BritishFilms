@@ -75,3 +75,25 @@
 #content {
     
 }
+
+#navbar {
+    position: absolute;
+    top:7px;
+    right: 0px;
+    width:50%;
+    height:30px;
+    list-style-type: none;
+    padding: 0px 0px;
+    color:white;
+    text-align: center;
+}
+#navbar li{
+    display:inline;
+    padding:20px;
+    color:white;
+    font-size: 15px;
+    
+}
+#silvia {
+    font-size: 6pt;
+}
