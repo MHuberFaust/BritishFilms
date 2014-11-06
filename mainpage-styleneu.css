@@ -42,11 +42,15 @@
     margin:10px 5px 0px 0px;
 }
 #bannerbox {
-shape-margin: 5 px
+    shape-margin: 5 px
 }
 #banner {
+    margin-left: auto;
+    margin-right: auto;
+        
     margin-top: 80px;
-    margin-left: 230px;
+    
+    /*margin-left: 230px;*/
   /*position: relative;*/
 }
 #content {
