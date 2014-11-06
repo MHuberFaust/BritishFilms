@@ -1,0 +1,44 @@
+#header, #footer {
+      background-color: #36465d;
+}
+#footer, h1 {
+    font-family: Georgia;
+    color: white;
+    text-align:center;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:60px;
+    border:2px solid #36465d;
+    margin:0px 5px 15px 0px;
+    padding:5px;	 
+}
+
+#community, #movies {
+    line-height:30px;
+    background-color:#d6dade;
+    height:600px;
+    width:220px;
+    text-align: center;
+
+}
+#community{
+        float:left;
+}
+#movies{
+    float:right;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height:40px;
+    margin:10px 5px 0px 0px;
+}
+
